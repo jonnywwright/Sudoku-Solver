@@ -12,7 +12,8 @@ int main() {
          {0, 0, 0, 0, 0, 0, 0, 7, 4}, 
          {0, 0, 5, 2, 0, 6, 3, 0, 0} };
     vector<vector<int>> grid2(9, vector<int>(9,0));
-    SudokuLogic sol;
-    sol.SolveSudokuPuzzle(grid2);
+    SudokuSolver sol;
+    sol.SolvePuzzle(grid2);
+    
     return 0;
 }
